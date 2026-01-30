@@ -1,0 +1,68 @@
+#map {position:absolute; top:0; bottom:0; width:100%;}
+
+.Parcpopup .maplibregl-popup-content {
+  background-color: #627CCB;     /* ton orange personnalisé */
+  color: white;                  /* texte blanc */
+  font-family: 'Poppins', sans-serif; /* police Poppins */
+  font-weight: bold;             /* texte en gras */
+  opacity: 1;                  /* légère transparence (optionnel) */
+  border: 2px solid #3753A5;          /* bordure blanche */
+  border-radius: 8px;                 /* coins arrondis (optionnel) */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.50); /* légère ombre portée */
+}
+
+.VLSpopup .maplibregl-popup-content {
+  background-color: #3CB095;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;              /* plus de gras global */
+  opacity: 0.8;
+  border-radius: 7px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.50);
+  /* taille du rectangle */
+  min-width: 100px;
+  max-width: 200px;
+  /* texte plus serré verticalement */
+  line-height: 0.8;                 /* diminue l’espacement entre lignes*/
+  padding: 3px 6px;                 /* moins de marge interne */
+  /* Titre : plus grand et en gras */
+} 
+
+.menu {
+            font: 12px/20px Poppins, sans-serif;
+            color: white;
+            position: absolute;
+            width: 200px;
+            top: 20px;
+            left: 50px;
+            padding: 10px;
+        }
+
+.menu .menu_overlay {
+            background-color: #9E9E9E;
+            opacity: 0.9;
+            box-shadow:0 1px 2px rgba(0, 0, 0, 0.10);
+            border-radius: 3px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+.menu_overlay fieldset {
+            border: none;
+            padding: 1;
+            margin: 0 0 10px;
+        }
+
+.menu_overlay .categoryLabel {
+            display: block;
+            font-weight: bold;
+            margin: 0 0 5px;
+        }
+
+
+#ongletsgeo {position: absolute; 
+             top: 20px; 
+             right: 20px; 
+             z-index: 1;
+             width:490px;
+        }
